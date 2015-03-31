@@ -70,27 +70,35 @@
  再来说说我们熟悉的meta
 
  1 <!-- 声明文档使用的字符编码 -->
+
     <meta charset='utf-8'>
 
  2  <!-- 优先使用 IE 最新版本和 Chrome 这个在一些项目中用过，主要对付的是360等国产浏览器-->
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
  3	<!-- 页面描述 -->
+
     <meta name="description" content="不超过150个字符"/>
 
  4  <!-- 页面关键词 -->
+
     <meta name="keywords" content=""/>
 
  5  <!-- 启用360浏览器的极速模式(webkit) -->
+
     <meta name="renderer" content="webkit">
 
  6  <!-- 添加 RSS 订阅 -->
+
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml"/>
 
  7  <!-- 添加 favicon icon -->
+
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
 
  8 	<!-- windows phone 点击无高光 -->
+ 
     <meta name="msapplication-tap-highlight" content="no">
 
 
