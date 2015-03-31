@@ -3,6 +3,7 @@
 
 变量
 首先，我们先来看一个极其简单的例子
+<<<<<<< HEAD
 	<textarea>
 	function doSomething(){
 		var result=10+value;
@@ -10,6 +11,15 @@
 		return result;
 	} // NAN
 	</textarea>
+=======
+
+function doSomething(){
+	var result=10+value;
+	var value=10;
+	return result;
+} // NAN
+
+>>>>>>> 34bdbec83151fb1cb799f2e4a7fc21e41af4806f
 var的副作用
 隐式全局变量和明确定义的全局变量间有些小的差异，就是通过delete操作符让变量未定义的能力。
 1,通过var创建的全局变量（任何函数之外的程序中创建）是不能被删除的。
