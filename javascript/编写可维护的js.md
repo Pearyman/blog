@@ -1,4 +1,3 @@
-<textarea>
 <h1>编写可维护的js</h1>
 变量·函数·运算符
 
@@ -158,4 +157,3 @@ jquery有jq对象
 YUI Compressor
 
 以上都是个人在读<编写可维护的js>这本书后的一些小的总结。
-</textarea>
