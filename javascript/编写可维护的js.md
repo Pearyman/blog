@@ -3,6 +3,7 @@
 
 变量
 首先，我们先来看一个极其简单的例子
+
 function doSomething(){
 	var result=10+value;
 	var value=10;
