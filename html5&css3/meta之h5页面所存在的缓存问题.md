@@ -98,7 +98,7 @@
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
 
  8 	<!-- windows phone 点击无高光 -->
- 
+
     <meta name="msapplication-tap-highlight" content="no">
 
 
@@ -106,7 +106,7 @@
 
 1、开启对web app程序的支持
 
-<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
 
 说明：
 
@@ -114,7 +114,7 @@
 
 2、 改变顶部状态条的颜色
 
-<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
 说明：
 
@@ -149,7 +149,7 @@
 
 为了在主屏达到最好的显示效果，title最好限制在六个中文长度内，超长的内容会被隐藏：
 
-<span style="font-size:14px;"><meta name="apple-mobile-web-app-title" content="标题"></span> 
+	<span style="font-size:14px;"><meta name="apple-mobile-web-app-title" content="标题"></span> 
 
 
 	3、设置启动画面 
@@ -179,17 +179,17 @@
     或者以下代码，具体没有实践，还需考证
 
     <!!-- iPhone SPLASHSCREEN-->  
-<!link href="http://wlog.cn/html/"apple-touch-startup-image-320x460.png" media="(device-width: 320px)" rel="apple-touch-startup-image" />  
-<!!-- iPhone (Retina) SPLASHSCREEN-->  
-<!link href="apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />  
-<!!-- iPad (portrait) SPLASHSCREEN-->  
-<!link href="apple-touch-startup-image-768x1004.png" media="(device-width: 768px) and (orientation: portrait)" rel="apple-touch-startup-image" />  
-<!!-- iPad (landscape) SPLASHSCREEN-->  
-<!link href="apple-touch-startup-image-748x1024.png" media="(device-width: 768px) and (orientation: landscape)" rel="apple-touch-startup-image" />  
-<!!-- iPad (Retina, portrait) SPLASHSCREEN-->  
-<!link href="apple-touch-startup-image-1536x2008.png" media="(device-width: 1536px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />  
-<!!-- iPad (Retina, landscape) SPLASHSCREEN-->  
-<link href="apple-touch-startup-image-1496x2048.png"media="(device-width: 1536px)  and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)"rel="apple-touch-startup-image" /> 
+	<!link href="http://wlog.cn/html/"apple-touch-startup-image-320x460.png" media="(device-width: 320px)" rel="apple-touch-startup-image" />  
+	<!!-- iPhone (Retina) SPLASHSCREEN-->  
+	<!link href="apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />  
+	<!!-- iPad (portrait) SPLASHSCREEN-->  
+	<!link href="apple-touch-startup-image-768x1004.png" media="(device-width: 768px) and (orientation: portrait)" rel="apple-touch-startup-image" />  
+	<!!-- iPad (landscape) SPLASHSCREEN-->  
+	<!link href="apple-touch-startup-image-748x1024.png" media="(device-width: 768px) and (orientation: landscape)" rel="apple-touch-startup-image" />  
+	<!!-- iPad (Retina, portrait) SPLASHSCREEN-->  
+	<!link href="apple-touch-startup-image-1536x2008.png" media="(device-width: 1536px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />  
+	<!!-- iPad (Retina, landscape) SPLASHSCREEN-->  
+	<link href="apple-touch-startup-image-1496x2048.png"media="(device-width: 1536px)  and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)"rel="apple-touch-startup-image" /> 
 
 
 
