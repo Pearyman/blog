@@ -4,13 +4,13 @@
 变量
 首先，我们先来看一个极其简单的例子
 
-	<textarea>
+
 	function doSomething(){
 		var result=10+value;
 		var value=10;
 		return result;
 	} // NAN
-	</textarea>
+
 
 
 var的副作用
@@ -24,7 +24,7 @@ var的副作用
 3, 帮助你记住声明的全局变量，因此较少了全局变量
 4, 少代码（类型啊传值啊单线完成）
 举个例子
-<textarea>
+
 	function doSomethingWithItems(items){
 		var value=10,
 		result=value+10,
@@ -34,18 +34,18 @@ var的副作用
 			doSomething(item);
 		}
 	}
-</textarea>
+
 
 函数
 大家都知道Javascript 有两个种定义Function的方法非常常用。例如
-	<textarea>
+
 		function a(){
 			alert("a");
 		}
 		var a = function(){
 			alert("a")
 		}
-	</textarea>
+
 虽然两个种方式定义出来的 function 调用的时候结果一样，但是中间还是有区别的。
 举个简单的例子，假如我们要重定义 a() ，而且新的方法要继承 a() 里面所有方法并且进行其他扩展的话。
 就可以明显看到这两个方式的区别了。
@@ -53,19 +53,20 @@ var的副作用
 		var b = a;
 		然后，重新定义a()
 		第一种方式:
-	<textarea>
+
 	function a(){
 		b();
 		alert("ok");
 	}
-	</textarea>
+
 		第二种方式:
-	<textarea>
+
 	var a = function(){
 		b();
 		alert("ok");
 	}
-	</textarea>
+
+
 这是大家可以尝试发现。第一种方式重新定义的 a() 会出现堆栈溢出的错误。
 而第二种方式却成功保留了原来 a() 所执行的脚本，成功 alert 出了 "a" "ok" 的字样，说明 a() 的方法被重定义了。
 这里就可以很明显区分两个方式的区别了。定义的顺序不同。
@@ -78,7 +79,7 @@ JS和javascript有着相同的一套位运算符
 而在JS中，JS的执行环境接触不到硬件，所以非常慢。并且JS很少被用来执行位操作。
 特别注意的是，在JS中，& “与”运算符常常被写成“&&”。位运算符出现在JS中降低了这门语言的冗余度，越来越不好找到BUG
 将数据从代码中分离出来配置数据是应用中写死的值
-	<textarea>
+
 		function validate(value){
 			if(!value) {
 				alert("invalid value");
@@ -92,25 +93,25 @@ JS和javascript有着相同的一套位运算符
 				addClass(element,"selected");
 			}
 		}
-	</textarea>
+
 抽离配置数据将数据从代码中抽离出来的第一步是将配置数据拿到外部
 也就是说
-	<textarea>
+
 		var config={
 			MSG_INVALID_VALUE:"incalid value",
 			URL_INVALID:"/errors/invalid.php",
 			CSS_SELECTED:"SELECTED"
 		};
-	</textarea>	
+
 将配置文件抽离出来意味着任何人都可以修改他们，而不会导致应用逻辑上的错误。
 UI层的松耦合在这里，值得我们注意的一点是：在一起工作的组件无法达到“无耦合”。在所有的系统中，组件之间总是要共享一些东西来完成各自的工作。而我们的目标是----确保一个组件的修改不会经常性的影响其它的部分。
 将js从CSS中分离出来在IE8以及更早的版本中，css中有个属性让人爱少恨多。这就是css表达式。
 比如：
-	<textarea>
+
 	.box{
 		width:expression(document.body.offsetWidth+"px");
 	}
-	</textarea>
+
 这段代码的意思是元素的宽度匹配浏览器的宽度。
 在css中嵌入js这对于维护来说简直就是一件很棘手的事情。
 幸好，IE9就不在支持css表达式了。
