@@ -192,6 +192,21 @@
 	<link href="apple-touch-startup-image-1496x2048.png"media="(device-width: 1536px)  and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)"rel="apple-touch-startup-image" /> 
 
 
+PS:再来补充一些
+
+ 1 <meta http-equiv="refresh" content="5">
+
+ 这个标签可以实现页面每5秒刷新一下
+
+ 2 <meta http-equiv="refresh" content="5 ; url='http://baidu.com'">
+
+ 让页面5秒后跳转到百度
+
+
+ 后面这两个参考 http://www.zhangxinxu.com/wordpress/2015/03/meta-http-equiv-refresh-content/ 有兴趣大家可以看看。
+
+
+
 
 
 
