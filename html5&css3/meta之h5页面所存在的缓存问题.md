@@ -194,13 +194,15 @@
 
 PS:再来补充一些
 
- 1 <meta http-equiv="refresh" content="5">
+ 1  
+  <meta http-equiv="refresh" content="5">
 
- 这个标签可以实现页面每5秒刷新一下
+  这个标签可以实现页面每5秒刷新一下
 
- 2 <meta http-equiv="refresh" content="5 ; url='http://baidu.com'">
+ 2 
+  <meta http-equiv="refresh" content="5 ; url='http://baidu.com'">
 
- 让页面5秒后跳转到百度
+  让页面5秒后跳转到百度
 
 
  后面这两个参考 http://www.zhangxinxu.com/wordpress/2015/03/meta-http-equiv-refresh-content/ 有兴趣大家可以看看。
