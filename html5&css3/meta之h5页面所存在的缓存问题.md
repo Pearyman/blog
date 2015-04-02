@@ -139,6 +139,7 @@
 
 
 扩展：
+
 	1,为用户加上提示
 
 通过添加一个JavaScript代码来邀请用户添加到主屏幕，该库使用了HTML5的本地存储跟踪是否已经显示过了，以避免重复出现。
@@ -196,13 +197,13 @@ PS:再来补充一些
 
  1 
 
-  <meta http-equiv="refresh" content="5">
+  '<meta http-equiv="refresh" content="5">'
 
   这个标签可以实现页面每5秒刷新一下
 
  2 
- 
-  <meta http-equiv="refresh" content="5 ; url='http://baidu.com'">
+
+  '<meta http-equiv="refresh" content="5 ; url='http://baidu.com'">'
 
   让页面5秒后跳转到百度
 
