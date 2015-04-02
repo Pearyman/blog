@@ -197,13 +197,13 @@ PS:再来补充一些
 
  1 
 
-  '<meta http-equiv="refresh" content="5">'
+  //'<meta http-equiv="refresh" content="5">'
 
   这个标签可以实现页面每5秒刷新一下
 
  2 
 
-  '<meta http-equiv="refresh" content="5 ; url='http://baidu.com'">'
+  //'<meta http-equiv="refresh" content="5 ; url='http://baidu.com'">'
 
   让页面5秒后跳转到百度
 
