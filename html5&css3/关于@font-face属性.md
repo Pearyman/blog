@@ -3,9 +3,6 @@
 所以，我觉得有必要看看@font-face属性。
 说道，@font-face ,我不得不提到webFont。这是在css3中新增的属性。首先，我们可以使用@font-face属性来利用服务器端的字体。
 具体格式为：
-
- 
-
 	@font-face{
 
 	fontfamily:WebFont;
