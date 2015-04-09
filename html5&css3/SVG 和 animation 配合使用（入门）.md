@@ -30,6 +30,41 @@
 
  <img src="../images/dashed-shape.png"/>
 
+ <h3>4,这些虚线的长度可以更长</h3>
+
+ 	css：
+
+ 	.path{stroke-dasharray:100;}
+
+ <img src="../images/long-dashes.png"/>
+
+ <h3>5,我们同样可以给它加上offset属性，真能够让这些虚线移动位置</h3>
+
+   那我们用什么来移动他们的位置呢 正如我们用了animation这个属性
+
+  <img src="../images/animate-stroke.gif"/>
+
+	  .path {
+
+		  stroke-dasharray: 100;
+
+		  animation: dash 5s linear;
+		}
+
+		@keyframes dash {
+
+		  to {
+
+		    stroke-dashoffset: 1000;
+
+		  }
+		  
+		}
+
+
+
+
+
 
 
 
