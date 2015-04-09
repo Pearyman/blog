@@ -58,8 +58,20 @@
 		    stroke-dashoffset: 1000;
 
 		  }
-		  
+
 		}
+
+ <h3>6,想象一下一条虚线的长度覆盖了整个svg图形</h3>
+
+   可以看到，如果虚线变换没有结束之前这就是一个完整的图形。你只是需要把 stroke-dasharray这个属性设置成比你的svg图形的长度还要长
+
+ <h3>7，现在用offset来替换覆盖整个svg图形，但事实上并不是覆盖整个图形</h3>
+
+   这就像这个svg图形并不在那里一样
+
+ <h3>8，现在用css3的animation属性将stroke的offset设置回0</h3>
+
+ <img src="../images/animate-stroke-full.gif"/>
 
 
 
