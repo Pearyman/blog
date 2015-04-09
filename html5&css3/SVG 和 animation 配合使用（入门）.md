@@ -28,7 +28,7 @@
 
 	  这样 我们就得到了长度为20px的虚线。
 
-	 <img src="../images/dashed-shape.png"/>
+ <img src="../images/dashed-shape.png"/>
 
 
 
