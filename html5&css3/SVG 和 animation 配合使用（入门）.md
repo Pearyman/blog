@@ -73,12 +73,27 @@
 
  <img src="../images/animate-stroke-full.gif"/>
 
+ 如果用css来实现这些 ，你需要使用animation中的forwards，这样可以保持最后的状态。
+
+		.path {
+		  stroke-dasharray: 1000;
+		  stroke-dashoffset: 1000;
+		  animation: dash 5s linear forwards;
+		}
+
+		@keyframes dash {
+		  to {
+		    stroke-dashoffset: 0;
+		  }
+		}
 
 
 
 
 
 
+
+ 
 
 
 
