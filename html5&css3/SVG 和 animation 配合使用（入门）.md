@@ -88,6 +88,14 @@
 		}
 
 
+ <h3>9，为什么在svg中都使用js</h3>
+
+ 许多关于svg搭配animation的例子都使用了js.那是因为我们很难去拿到我们画的svg这个图形的长度，而我们在例子中使用的是长度1000，是因为碰巧是正确的长度。
+
+	 var path = document.querySelector('.path');
+	 var length = path.getTotalLength();
+
+
 
 
 
