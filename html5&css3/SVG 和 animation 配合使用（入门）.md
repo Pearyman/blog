@@ -1,4 +1,4 @@
-<h1>SVG和animation配合使用（入门）</h1>
+<h1>SVG和animation配合使用</h1>
 
 这个当然是废话少说，上步骤：
 
@@ -94,6 +94,10 @@
 
 	 var path = document.querySelector('.path');
 	 var length = path.getTotalLength();
+
+
+
+原文地址： http://css3.tricks.com
 
 
 
