@@ -87,4 +87,8 @@
 4,不要包含没有使用的 @font-face声明——IE将不分它使用与否，通通加载<br/>
 5,Gzip字体文件，同时给它们一个未来的过期头部声明<br/>
 6,考虑字体文件的后加载，起码对于IE。
+
+这个经过我的实验，确实得到了很多的启发，并且这种方法在移动端上确实很适用。
+
+具体的代码在这里 https://github.com/Pearyman/jscode/blob/master/test/font-face.html
  
