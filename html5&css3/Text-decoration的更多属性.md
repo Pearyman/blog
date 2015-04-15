@@ -13,6 +13,34 @@
  <img src="../images/multiple.png"/>
 
 
+<h3>2,你可以改变下划线的颜色</h3>
+
+下划线颜色的需求同调整文字颜色是一样的，但是你也可以这样调整:
+
+	a{text-decoration:#f06d06;}
+
+ <img src="../images/orange.png"/>
+
+ 注意：
+
+ <img src="../images/compare.png"/>
+
+ 左侧的是 chrome 右侧的是firefox
+
+ 实际上在不同的浏览器中出现的underline略有不同，一种普通的方式来解决这种方法就是用border来替换text-decoration。边框可以控制颜色、宽窄以及位置，这点比text-decoration来说稍微好一些。
+ 但是，这还有一些东西边框并不能做，比如:
+
+<h3>3,你可以改变边框的样式</h3>
+
+你能让border也这样吗？
+
+	a{text-decoration:wavy;}
+
+ <img src="../images/wavy.png"/>
+
+
+
+
 
 
 
