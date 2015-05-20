@@ -1,2 +1,2 @@
 # blog
-my personal blog
+something...
