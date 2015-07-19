@@ -1,11 +1,1 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>前端AD页面制作要点</title>
-</head>
-<body>
-	前端AD页面制作要点
-	======================
-</body>
-</html>
+#前端AD页面制作要点
