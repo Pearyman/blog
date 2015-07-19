@@ -3441,7 +3441,7 @@ footer .footer_bottom {
 .icon-twitter:before { content: "\e630"; font-size: 1.1em; }
 .icon-google-plus:before { content: "\e62d"; }
 .icon-facebook:before { content: "\e62f"; }
-.icon-sina-weibo:before { content: "\e666"; }
+.icon-star:before { content: "\e61c";}
 .icon-github:before { content: "\e636"; }
 /*---------------- END ------------------------*/
 @charset "utf-8";
